@@ -5,27 +5,24 @@ import java.util.Set;
 
 public class MachineComposite extends MachineComponent {
 
-	List<MachineComponent> components;
+	List<MachineComponent> componentList;
 	
 	@Override
 	Integer getMachineCount() {
 		Integer sum = 0;
-		for (MachineComponent machineComponent : components) {
+		for (MachineComponent machineComponent : componentList) {
 			sum+=machineComponent.getMachineCount();
 		}
 		return sum;
 	}
 
 	@Override
-	Boolean isTree() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	Boolean isTree(Set<MachineComponent> s) {
-		for (MachineComponent machineComponent : components) {
-			if(s.contains(machineComponent))
+	Boolean isTree(Set<MachineComponent> visited) {
+		
+		visited.add(this);		
+		
+		for (MachineComponent machineComponent : componentList) {
+			if(visited.contains(machineComponent)||!machineComponent.isTree(visited))
 				return false;
 		}
 		return true;
