@@ -10,13 +10,8 @@ public class Machine extends MachineComponent {
 	}
 
 	@Override
-	Boolean isTree() {
-		return null;
-	}
-
-	@Override
-	Boolean isTree(Set<MachineComponent> s) {
-		s.add(this);
+	Boolean isTree(Set<MachineComponent> visited) {
+		visited.add(this);
 		return true;
 	}
 
