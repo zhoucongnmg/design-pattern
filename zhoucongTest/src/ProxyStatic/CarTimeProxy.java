@@ -1,4 +1,4 @@
-package jingtaiProxy;
+package ProxyStatic;
 
 //使用聚合方式实现静态代理
 public class CarTimeProxy implements Moveable {

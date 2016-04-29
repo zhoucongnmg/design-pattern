@@ -1,4 +1,4 @@
-package jingtaiProxy;
+package ProxyStatic;
 
 public class Test {
 	public static void main(String[] args){

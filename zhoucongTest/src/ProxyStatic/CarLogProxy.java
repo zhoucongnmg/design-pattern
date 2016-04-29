@@ -1,4 +1,4 @@
-package jingtaiProxy;
+package ProxyStatic;
 
 public class CarLogProxy implements Moveable{
 

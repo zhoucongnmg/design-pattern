@@ -1,4 +1,4 @@
-package jingtaiProxy;
+package ProxyDynamicWithReflect;
 
 import java.util.Random;
 
