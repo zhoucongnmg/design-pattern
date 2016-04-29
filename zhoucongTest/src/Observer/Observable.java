@@ -8,19 +8,19 @@ import java.util.List;
  * @author zc
  *
  */
-public class Subject {
+public class Observable {
 
 	private List<Observer> observers = new ArrayList<Observer>();
 	
 	//注册
-	public void attach(Observer observer){
+	public void addObserver(Observer observer){
 		observers.add(observer);
 	}
 	//删除
-	public void detach(Observer observer){
+	public void deleteObserver(Observer observer){
 		observers.remove(observer);
 	}
-	//通知
+	//通知 注意可见性为protected，对客户不可见
 	protected void notifyObservers(){
 		for(Observer observer : observers){
 			observer.update(this);

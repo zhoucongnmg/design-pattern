@@ -13,7 +13,7 @@ public class Singleton2 {
 	private static Singleton2 instance;
 	
 	//3.提供一个用于获取实例的方法，使用public static修饰
-	public static Singleton2 getInstance(){
+	public static synchronized Singleton2 getInstance(){
 		if(instance==null){
 			instance=new Singleton2();
 		}

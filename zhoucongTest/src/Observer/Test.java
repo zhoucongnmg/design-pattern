@@ -15,8 +15,8 @@ public class Test {
 		observer2.setJob("工作2");
 		
 		//注册观察者
-		subject.attach(observer1);
-		subject.attach(observer2);
+		subject.addObserver(observer1);
+		subject.addObserver(observer2);
 
 		//目标状态变化
 		subject.setSubjectState("状态变化啦");

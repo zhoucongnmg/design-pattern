@@ -5,7 +5,7 @@ package Observer;
  * @author zc
  *
  */
-public class ConcreteSubject extends Subject{
+public class ConcreteSubject extends Observable{
 	//Ä¿±ê×´Ì¬
 	private String subjectState;
 

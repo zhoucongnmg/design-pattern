@@ -15,8 +15,7 @@ public class Test {
 		
 		//注册观察者
 		subject.addObserver(observer1);
-		subject.addObserver(observer2);
-		
+		subject.addObserver(observer2);	
 		//目标状态更新
 		subject.setContent("天气晴！");
 

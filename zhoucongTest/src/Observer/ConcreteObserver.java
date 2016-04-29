@@ -15,7 +15,7 @@ public class ConcreteObserver implements Observer{
 	 * update时直接获得目标对象，为拉模型
 	 */
 	@Override
-	public void update(Subject subject) {
+	public void update(Observable subject) {
 		//同步状态
 		observerState = ((ConcreteSubject)subject).getSubjectState();
 		
