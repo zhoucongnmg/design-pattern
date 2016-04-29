@@ -1,6 +1,11 @@
 package Test3_1;
 
 //import java.awt.event.MouseAdapter;
+/**
+ * ¶ÔÏóÊÊÅäÆ÷
+ * @author zc
+ *
+ */
 
 public class OozinozSkyrocket extends Skyrocket {
 

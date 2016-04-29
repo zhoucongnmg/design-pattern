@@ -1,5 +1,10 @@
 package Test3_1;
 
+/**
+ * ½Ó¿ÚÊÊÅäÆ÷
+ * @author zc
+ *
+ */
 public class OozinozRocket extends PhysicalRocket implements RocketSim {
 
 	private double time;
