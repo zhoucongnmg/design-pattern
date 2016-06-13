@@ -8,8 +8,8 @@ public class Director {
 	}
 	
 	public void construct(){
-		builder.buildPartA("A");
-		builder.buildPartB("B");
-		builder.buildPartC("C");
+		builder.buildHead();
+		builder.buildHand();
+		builder.buildBody();
 	}
 }

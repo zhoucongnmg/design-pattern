@@ -1,33 +1,31 @@
 package Builder;
 
 public class Product {
-	private String partA;
-	private String partB;
-	private String partC;
-	
-	public String getPartA() {
-		return partA;
+	private String head;
+	private String hand;
+	private String body;
+	public String getHead() {
+		return head;
 	}
-	public void setPartA(String partA) {
-		this.partA = partA;
+	public void setHead(String head) {
+		this.head = head;
 	}
-	public String getPartB() {
-		return partB;
+	public String getHand() {
+		return hand;
 	}
-	public void setPartB(String partB) {
-		this.partB = partB;
+	public void setHand(String hand) {
+		this.hand = hand;
 	}
-	public String getPartC() {
-		return partC;
+	public String getBody() {
+		return body;
 	}
-	public void setPartC(String partC) {
-		this.partC = partC;
+	public void setBody(String body) {
+		this.body = body;
 	}
 	@Override
 	public String toString() {
-		return "Product [partA=" + partA + ", partB=" + partB + ", partC=" + partC + "]";
+		return "Product [head=" + head + ", hand=" + hand + ", body=" + body + "]";
 	}
-	
 	
 	
 }
