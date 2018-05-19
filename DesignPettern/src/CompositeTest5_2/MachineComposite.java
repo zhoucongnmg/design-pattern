@@ -22,8 +22,9 @@ public class MachineComposite extends MachineComponent {
 		visited.add(this);		
 		
 		for (MachineComponent machineComponent : componentList) {
-			if(visited.contains(machineComponent)||!machineComponent.isTree(visited))
+			if(visited.contains(machineComponent)||!machineComponent.isTree(visited)) {
 				return false;
+			}
 		}
 		return true;
 	}

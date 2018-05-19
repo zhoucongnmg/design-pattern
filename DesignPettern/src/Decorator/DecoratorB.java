@@ -6,6 +6,7 @@ public class DecoratorB extends Decorator{
 		super(component);
 	}
 	
+	@Override
 	public void functionA(){
 		super.functionA();
 		functionC();

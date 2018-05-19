@@ -1,23 +1,21 @@
 package MediatorTest10_4;
 
-import java.util.Set;
-
-public class Machine {
+public class Ball {
 
 	private String id;
-	private TubMediator mediator = new TubMediator();
+	private BoxBallMediator mediator = null;
 	
-	public Machine(String id,TubMediator mediator){
+	public Ball(String id, BoxBallMediator mediator){
 		this.id = id;
 		this.mediator = mediator;
 	}
 	
-	public void addTub(Tub t){
-		mediator.set(t, this);
+	public Box getLocation(){
+		return mediator.getMachine(this);
 	}
 	
-	public Set<Tub> getTubs(){
-		return mediator.getTubs(this);
+	public void setLocation(Box m){
+		mediator.set(this, m);
 	}
 
 	@Override
@@ -30,18 +28,23 @@ public class Machine {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
+		if (this == obj) {
 			return true;
-		if (obj == null)
+		}
+		if (obj == null) {
 			return false;
-		if (getClass() != obj.getClass())
+		}
+		if (getClass() != obj.getClass()) {
 			return false;
-		Machine other = (Machine) obj;
+		}
+		Ball other = (Ball) obj;
 		if (id == null) {
-			if (other.id != null)
+			if (other.id != null) {
 				return false;
-		} else if (!id.equals(other.id))
+			}
+		} else if (!id.equals(other.id)) {
 			return false;
+		}
 		return true;
 	}
 

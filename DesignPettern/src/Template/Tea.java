@@ -13,6 +13,7 @@ public class Tea extends Template{
 		
 	}
 	
+	@Override
 	protected boolean isCustomerWantsCondiments() {
 		return false;
 	}

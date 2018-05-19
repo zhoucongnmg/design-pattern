@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/DesignPettern/src" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/AbstractFactory/ComputerB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/AbstractFactory/PhoneA.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/AbstractFactory/PhoneB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/AdapterTest3_1/OozinozRocket.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/AdapterTest3_1/OozinozSkyrocket.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Builder/ConcreteBuilderA.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Builder/ConcreteBuilderB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ChainOfResponsibility/Handler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ChainOfResponsibility/HandlerA.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ChainOfResponsibility/HandlerB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ChainOfResponsibility/HandlerC.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ChainOfResponsibility/HandlerD.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ChainOfResponsibility/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Decorator/ConcreteComponent.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Decorator/Decorator.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Decorator/DecoratorA.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Decorator/DecoratorB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Factory/HairFactory.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Factory/HairInterface.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Factory/LeftHair.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Factory/RightHair.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Factory/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/MediatorTest10_4/Tests.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Observer/ConcreteObserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Observer/ConcreteSubject.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Observer/Observable.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Observer/Observer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Observer/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ObserverWithJavaUtil/ConcreteObserver.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ObserverWithJavaUtil/ConcreteWeatherSubject.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ObserverWithJavaUtil/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ProxyDynamicWithReflect/Car.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ProxyDynamicWithReflect/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/ProxyDynamicWithReflect/TimeHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Singleton/Singleton.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Singleton/Singleton3.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/State/Context.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/State/StateA.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/State/StateB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/State/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Strategy/StrategyA.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Strategy/StrategyB.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Template/Coffee.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Template/Tea.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/DesignPettern/src/Template/Template.java" charset="GBK" />
+  </component>
+</project>

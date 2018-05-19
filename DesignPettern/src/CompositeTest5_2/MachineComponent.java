@@ -10,6 +10,6 @@ public abstract class MachineComponent {
 	abstract Boolean isTree(Set<MachineComponent> visited);
 	
 	Boolean isTree(){
-		return isTree(new HashSet<MachineComponent>());
+		return isTree(new HashSet<>());
 	}
 }
