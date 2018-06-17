@@ -7,13 +7,22 @@ package Decorator;
  */
 public class Decorator implements Component{
 
+	public Decorator(){}
+
 	private Component component;
 	public Decorator(Component component){
 		this.component = component;
 	}
 	@Override
-	public void functionA() {
-		component.functionA();
+	public void function() {
+		component.function();
 	}
 
+	public Component getComponent() {
+		return component;
+	}
+
+	public void setComponent(Component component) {
+		this.component = component;
+	}
 }

@@ -2,12 +2,12 @@ package AbstractFactory;
 
 public class Test {
 	public static void main(String[] args){
-		AbstractFactory factoryA = new FactoryA();
-		Phone phone = factoryA.getPhone();
+		test(new FactoryA());
+	}
+
+	public static void test(AbstractFactory factory){
+		Phone phone = factory.getPhone();
 		phone.brand();
-		AbstractFactory factoryB = new FactoryB();
-		Computer computerB = factoryB.getComputer();
-		computerB.brand();
 	}
 
 }

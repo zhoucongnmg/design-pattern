@@ -2,13 +2,13 @@ package Builder;
 
 public class Test {
 	public static void main(String[] args) {
-		Builder builderA = new ConcreteBuilderA();
-		Director directorA = new Director(builderA);
-		directorA.construct();
-		System.out.println(builderA.getProduct());
-		Builder builderB = new ConcreteBuilderB();
-		Director directorB = new Director(builderB);
-		directorB.construct();
-		System.out.println(builderB.getProduct());
+		test(new ConcreteBuilderA());
+		test(new ConcreteBuilderB());
+	}
+
+	public static void test(Builder builder){
+		Director director = new Director(builder);
+		director.construct();
+		System.out.println(builder.getProduct());
 	}
 }

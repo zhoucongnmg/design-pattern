@@ -5,10 +5,11 @@ public class DecoratorB extends Decorator{
 	public DecoratorB(Component component) {
 		super(component);
 	}
-	
+
+	public DecoratorB(){}
 	@Override
-	public void functionA(){
-		super.functionA();
+	public void function(){
+		super.function();
 		functionC();
 	}
 	
